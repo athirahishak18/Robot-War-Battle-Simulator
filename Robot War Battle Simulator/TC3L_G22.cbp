@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TC3L_G22" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TC3L_G22" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TC3L_G22" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Battlefield.cpp" />
+		<Unit filename="Battlefield.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="BlueThunder.cpp" />
+		<Unit filename="BlueThunder.h" />
+		<Unit filename="LinkedList.cpp" />
+		<Unit filename="LinkedList.h" />
+		<Unit filename="MadBot.cpp" />
+		<Unit filename="MadBot.h" />
+		<Unit filename="MovingRobot.h" />
+		<Unit filename="Queue.cpp" />
+		<Unit filename="Queue.h" />
+		<Unit filename="RoboCop.cpp" />
+		<Unit filename="RoboCop.h" />
+		<Unit filename="RoboTank.cpp" />
+		<Unit filename="RoboTank.h" />
+		<Unit filename="Robot.cpp" />
+		<Unit filename="Robot.h" />
+		<Unit filename="SeeingRobot.h" />
+		<Unit filename="ShootingRobot.h" />
+		<Unit filename="SteppingRobot.h" />
+		<Unit filename="TC3L_G22_main.cpp" />
+		<Unit filename="Terminator.cpp" />
+		<Unit filename="Terminator.h" />
+		<Unit filename="TerminatorRoboCop.cpp" />
+		<Unit filename="TerminatorRoboCop.h" />
+		<Unit filename="UltimateRobot.cpp" />
+		<Unit filename="UltimateRobot.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
